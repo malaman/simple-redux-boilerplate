@@ -14,6 +14,7 @@ export default class Counter extends Component {
   }
 
   render() {
+    console.log('this.props', this.props);
     return (
       <div className="counter-container">
         <div className="counter-num-label">{this.props.counter}</div>
